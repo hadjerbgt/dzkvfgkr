@@ -17,7 +17,35 @@ body{
     flex-wrap: wrap;
     position: relative;
   }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+   
+    padding: 10px 20px;
+  }
   
+  .back-button a {
+    color:#ba89ff;
+    text-decoration: none;
+    font-size: 1.5em;
+  }
+
+  .title {
+    font-size: 3em;
+
+   letter-spacing: 2px;
+
+   
+    letter-spacing: 2px;
+    color: #ba89ff;
+    
+
+    text-shadow: 0 3.36px 1.896px #56299576,0 -2px 1px 
+  
+}
   .card-01{
     background: #ffffff;
     position: relative;
@@ -150,8 +178,8 @@ body{
     position: absolute;
 
 
-    bottom: 40px;
-    left: 15px;
+    bottom: 30px;
+    left: 40%;
    
     height: 80px;
     width: 80px;
@@ -201,7 +229,7 @@ body{
 
     width: calc(100% - 20px);
     right:15%;
-    bottom: 20%;
+    bottom: 40%;
     position: absolute;
     font-size: 20px;
     font-weight: 600;
@@ -260,7 +288,7 @@ align-items: center;
 .table__header .input-group {
 width: 35%;
 height: 100%;
-background-color: #ffe7afd8;
+background-color: #c9a3ffbc;
 padding: 0 .8rem;
 border-radius: 2rem;
 
@@ -273,7 +301,7 @@ transition: .2s;
 
 .table__header .input-group:hover {
 width: 45%;
-background-color: #fdedc9;
+background-color: #7a42c99f;
 box-shadow: 0 .1rem .4rem #0002;
 }
 
@@ -343,7 +371,7 @@ thead th {
 position: sticky;
 top: 0;
 left: 0;
-background-color: #ffebbd;
+background-color: #c197fd;
 cursor: pointer;
 text-transform: capitalize;
 }
